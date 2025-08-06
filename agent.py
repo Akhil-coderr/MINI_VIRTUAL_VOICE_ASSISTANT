@@ -19,8 +19,13 @@ async def entrypoint(ctx: agents.JobContext):
     session = AgentSession(
         llm=google.beta.realtime.RealtimeModel(
         model="gemini-2.0-flash-exp",
+<<<<<<< HEAD
         voice="puck",
         temperature=0.6,
+=======
+        voice="Aoede",
+        temperature=0.8,
+>>>>>>> 8e7ca8679bf2c30d6656d144bc23fb67c6357193
         instructions=AGENT_INSTRUCTIONS,
     )
     )
@@ -55,8 +60,11 @@ if __name__ == "__main__":
 # to activate venv:
 # Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
 # .\venv\Scripts\Activate.ps1
+<<<<<<< HEAD
 #   ONE LINE EXECUTER
 #Set-ExecutionPolicy RemoteSigned -Scope Process; .\venv\Scripts\Activate.ps1
+=======
+>>>>>>> 8e7ca8679bf2c30d6656d144bc23fb67c6357193
 
 # to connect to a background room:
 
