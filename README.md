@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python agent.py
 
 As this was my first project so this is a raw model of how to create a user friendly voice assistant using livekit and google llm,
-you can run the mini assistant in the console or in the cloud server of livekit which is free by usinng the command i pated inside the last lines of agent.py where you can select the command and run it on the terminal then it may then link to the cloud 
+you can run this mini assistant in the console or in the cloud server of livekit which is free by usinng the command i pasted inside the last lines of agent.py where you can select the command and run it on the terminal then it may  link to the cloud of livekit server 
 
  Future Plans
 Add new tools and voices
